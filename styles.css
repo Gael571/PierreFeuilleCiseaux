@@ -1,0 +1,117 @@
+body {
+    background-image: url('media/bgstone.jpg');
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+    height: 80px;
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.700);
+    margin-top: 25px;
+    margin-bottom: 75px;
+    border-radius: 18px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+#reset {
+    background-color: gold;
+    border-radius: 18px;
+    height: 20px;
+    color: black;
+    font-weight: 100;
+}
+
+.button:active {
+
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button:hover {
+    border-right: gold 5px solid;
+    border-left: gold 5px solid;
+}
+
+
+#choicesBox {
+    margin-left: 25%;
+    width: 50%;
+    height: 150px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.700);
+    border-left: gold 5px solid;
+    border-right: gold 5px solid;
+
+}
+
+#tableaux {
+    display: flex;
+    height: 180px;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: large;
+
+    text-align: justify;
+}
+
+#scores {
+    padding-top: 1%;
+    text-align: center;
+    text-align-last: center;
+    width: 110px;
+    min-height: 150px;
+    max-height: 150px;
+    margin-left: 40px;
+    border-radius: 18px;
+    color: gold;
+    border-right: gold 5px solid;
+    border-left: gold 5px solid;
+    background-color: rgba(0, 0, 0, 0.700);
+
+}
+
+.resultat {
+    padding-top: 2%;
+    text-align: center;
+    text-align-last: center;
+    width: 250px;
+    min-height: 150px;
+    max-height: 150px;
+
+    border-radius: 18px;
+    color: gold;
+    border-left: gold 5px solid;
+    border-right: gold 5px solid;
+    background-color: rgba(0, 0, 0, 0.700);
+}
+
+#copyright {
+    text-align: center;
+    color: gold;
+    height: 70px;
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.700);
+    margin-top: 25px;
+
+    border-radius: 18px;
+}
